@@ -22,12 +22,16 @@ h6 {
   margin: 0;
 }
 
+
+
 /* container */
 .container {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
 }
+
+
 
 /* intro */
 .intro {
@@ -76,6 +80,8 @@ h6 {
   text-align: center;
 }
 
+
+
 /* Header */
 .header {
   width: 100%;
@@ -99,6 +105,8 @@ h6 {
   font-weight: 700;
   color: #ffffff;
 }
+
+
 
 /* Nav */
 .nav {
@@ -143,6 +151,8 @@ h6 {
   opacity: 1;
 }
 
+
+
 /* Button*/
 .btn {
   display: inline-block;
@@ -164,6 +174,8 @@ h6 {
   background: #ffffff;
   color: #333333;
 }
+
+
 
 /* Slider */
 .slider {
@@ -215,6 +227,8 @@ h6 {
   font-size: 26px;
   font-weight: 700;
 }
+
+
 
 /* Section */
 .section {
@@ -307,3 +321,44 @@ h6 {
 
   transition: opacity 0.2s linear;
 }
+
+
+
+/* Statistics */
+.statistics {
+  background-color: #95e1d3;
+}
+
+.stats {
+  display: flex;
+}
+
+.stats__item {
+  flex: 1 1 0;
+  padding: 70px 25px;
+
+  color: #ffffff;
+  text-align: center;
+
+  border-left: 1px solid #b5eae0;
+}
+
+.stats__item:last-child {
+  border-right: 1px solid #b5eae0;
+}
+
+.stats__text {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.stats__number {
+  margin-bottom: 10;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1;
+  
+}
+
+
+
