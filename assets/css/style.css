@@ -255,6 +255,10 @@ hr {
   padding-bottom: 0;
 }
 
+.section--grey{
+  background-color: #f8f8f8;
+}
+
 .section__header {
   width: 100%;
   max-width: 950px;
@@ -518,6 +522,83 @@ hr {
   text-transform: uppercase;
 }
 
+
+
+/* Reviews */
+.reviews {
+  padding: 0 110px;
+  position: relative;
+
+}
+
+.reviews__item {
+  padding-left: 205px;
+  position: relative;
+}
+
+.reviews__photo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+  padding: 30px;
+  border: 3px solid #95e1d3;
+}
+
+.reviews__text {
+  font-weight: 300;
+  font-size: 24px;
+  font-style: italic;
+  color: #999;
+}
+
+.reviews__author {
+  margin-top: 15px;
+  font-size: 24px;
+  font-family: "Kaushan Script", cursive;
+
+}
+
+.reviews__author::before {
+  content: "";
+  display:inline-block;
+  vertical-align: middle;
+  width: 60px;
+  height: 3px;
+  margin-right: 10px;
+
+  background-color: #f38181;
+}
+
+.reviews__btn {
+  font-size: 0;
+  color: transparent;
+
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  transform: translateY(-50%);
+}
+
+.reviews__btn::after {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-top: 2px solid #ccc;
+  border-left: 2px solid #ccc;
+}
+
+.reviews__btn--prev {
+  left: 0;
+  transform: rotate(-45deg);
+}
+
+.reviews__btn--next {
+  right: 0;
+  transform: rotate(135deg);
+}
 
 
 
