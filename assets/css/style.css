@@ -255,6 +255,12 @@ hr {
   padding-bottom: 0;
 }
 
+.section--clients {
+  background: url("../images/Clients/background.png")
+  center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
 .section--grey{
   background-color: #f8f8f8;
 }
@@ -727,8 +733,83 @@ hr {
   font-size: 15px;
   font-style: italic;
   font-weight: 300;
-
 }
+
+
+
+/* Clients */
+.clients {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.clients__col {
+  flex: 1 1 0;
+  margin-right: 50px;
+}
+
+.clients__col:last-child {
+  margin-right: 0;
+}
+
+.clients__person {
+  position: relative;
+  padding-left: 180px;
+  margin: 100px auto;
+}
+
+.clients__image {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+
+  position: absolute;
+  top: 0;
+  left: 40px;
+  z-index: 1;
+}
+
+.clients__name {
+  color: #333;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.clients__prof {
+  margin-top: 5px;
+  
+  font-weight: 300;
+  font-size: 15px;
+  font-style: italic;
+  color: #999;
+}
+
+.clients__prof:after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  margin: 15px 0;
+
+  background-color: #f38181;
+}
+
+.clients__description {
+  margin-top: 5px;
+  
+  font-weight: 300;
+  font-size: 15px;
+  font-style: italic;
+  color: #999;
+}
+
+
+
+
+
+
 
 
 
